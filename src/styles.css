@@ -168,3 +168,39 @@ h3 { font-size: 1.25rem; }
   font-weight: 800;
   line-height: 1;
 }
+
+@media (max-width: 768px) {
+
+  .social-links,
+  .button-group,
+  .cta-buttons,
+  .card-links,
+  .tag-row,
+  .quick-facts,
+  .hero-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .hero-buttons a,
+  .social-links a,
+  .button-group a,
+  .cta-buttons a {
+    margin: 0;
+  }
+
+  .hero-content,
+  .hero-text {
+    text-align: center;
+  }
+
+  h1,
+  h2,
+  h3,
+  p {
+    text-align: center;
+  }
+}
