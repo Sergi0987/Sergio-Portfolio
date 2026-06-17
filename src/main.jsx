@@ -1,6 +1,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import headshot from './assets/headshot.png';
+import headshot from './assets/headshot.jpg';
 import './styles.css';
 
 const Icon = ({ children }) => <span className="icon" aria-hidden="true">{children}</span>;
